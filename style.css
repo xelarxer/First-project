@@ -1,0 +1,57 @@
+.paragraphe
+{
+	font-family: Courier New;
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+	animation-duration: 2s;
+	animation-name: slidein;
+	transition: ease-in-out;
+}
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 100%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+h1
+{
+
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+	color:rgb(255, 0, 0);
+	animation-duration: 2s;
+	animation-name: slidein;
+	transition: ease-in-out;
+
+}
+
+img
+{
+	width: 25%;
+	margin: auto;
+	display: block;
+}
+	
+.image {
+    width: 300px; 
+    height: auto;
+    transition: transform .2s;
+}
+
+.image:hover {
+	transform: scale(1.2);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px; 
+}

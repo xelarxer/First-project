@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Jules César.fr</title>
+    <link rel="stylesheet" href="quiz.css">
+    <style>
+        body {
+            background-color: grey
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="Slidein" Bienvenue sur le quiz de Jules César></h1>
+    </header>
+    <br>
+    <div id="quiz"></div>
+    <br><br><br>
+    <button class="button-17" role="button" id="submit">Submit Quiz</button>
+    <div id="results"></div>
+    <script src="backend.js"></script>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+      </div>
+      <button class="button-17" role="button" id="previous">Previous Question</button>
+      <button class="button-17" role="button" id="next">Next Question</button>
+      <button class="button-17" role="button" id="submit">Submit Quiz</button>
+      <div id="results"></div>  
+  <div class="slide">
+    <div class="question"> ${currentQuestion.question} </div>
+    <div class="answers"> ${answers.join("")} </div>
+  </div>
+</body>
+</html>
